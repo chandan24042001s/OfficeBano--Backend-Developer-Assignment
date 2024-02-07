@@ -52,17 +52,17 @@
 
 ### Run in Local 
    #### Clone the Project :
-   https://github.com/chandan24042001s/OfficeBano--Backend-Developer-Assignment
+   	https://github.com/chandan24042001s/OfficeBano--Backend-Developer-Assignment
 
    #### npm install
-   npm i
+   	npm i
 
    #### Setup Cloudinary in env File
-DATABASE_URL=mongodb+srv://chandan:chandan@cluster0.poar8ln.mongodb.net/Todo
- API_KEY=" "
- CLOUD_NAME=" "
- API_SECRET=" "
- PORT=5000
+	DATABASE_URL=mongodb+srv://chandan:chandan@cluster0.poar8ln.mongodb.net/Todo
+ 	API_KEY=" "
+ 	CLOUD_NAME=" "
+ 	API_SECRET=" "
+ 	PORT=5000
 
  ### Run a backend
-  #### npm run dev
+	  #### npm run dev
