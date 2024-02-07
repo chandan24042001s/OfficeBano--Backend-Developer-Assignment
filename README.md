@@ -1,6 +1,6 @@
 # OFFICEBANAO- Backend Developer Assignment
 
-## My name is Chandan kumal. This repository includes a assignment which deliver a massive implementation of Todo BAckend App.
+## My name is Chandan kumal. This repository includes a assignment which deliver a massive implementation of Todo Backend App.
 
 ### Tech Stack Used
 1. Node Js 
