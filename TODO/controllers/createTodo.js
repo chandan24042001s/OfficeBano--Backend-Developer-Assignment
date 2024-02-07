@@ -54,7 +54,7 @@ exports.createTodo=async(req,res)=>{
         res.status(200).json({
             sucess:true,
             data:response,
-            message:'Entry Created Sucessfully'
+            message:'Crate hogaya aab ---Entry Created Sucessfully'
         });
 
     }

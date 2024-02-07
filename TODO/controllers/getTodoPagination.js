@@ -1,5 +1,4 @@
 
-
 const Todo=require("../models/Todo");
 
 exports.getTodosPaginated = async (req, res) => {
@@ -7,10 +6,11 @@ exports.getTodosPaginated = async (req, res) => {
         const page = parseInt(req.body.page) ||  1;
         const limit = parseInt(req.body.limit) ||  10;
 
-        // Set default values if not provided
+        // default mey kya hoga
         const skipIndex = (page -  1) * limit;
         const results = {};
 
+        //limit check karo phele 
         if (limit >  0) {
             results.results = await Todo.find().sort({ _id: -1 }).skip(skipIndex).limit(limit);
             results.totalPages = await Todo.countDocuments();
