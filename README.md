@@ -8,6 +8,26 @@
 3. Cloudinary
 4. Express Js
 
+### Postman Testing URLs: 
+
+#### 1. Create Todo List :  
+         (Method: Post )- http://localhost:5000/api/v1/getTodos
+#### 2. Create Multiple Todo List:  
+	      (Method: Post )- http://localhost:5000/api/v1/createMultipleTodos
+#### 3. Get Todo List : (Method: GET)
+	      By Id:  http://localhost:5000/api/v1/getTodo/id
+	      Fetch all: http://localhost:5000/api/v1/getTodo
+#### 4. Get Todo List by pagination: 
+      (method: GET) -  http://localhost:5000/api/v1/getTodos
+#### 5. Update Todo List : 
+      (Method: PUT) - http://localhost:5000/api/v1/updateTodo
+#### 6. Delete Todo List: 
+      (Method: DELETE) http://localhost:5000/api/v1/deleteTodo
+#### 7. File Upload : 
+      (Method: POST)- http://localhost:5000/api/v1/fileupload
+
+
+
 ### Create Todo
    <a href="URL_REDIRECT" target="blank"><img align="center" src="https://github.com/chandan24042001s/OfficeBano--Backend-Developer-Assignment/blob/main/TODO/OutputImages/createTodo.jpeg?raw=true" height="50%" width="100%" /></a>
 
