@@ -16,6 +16,9 @@ const todoSchema=new mongoose.Schema({
         required:true,
         default:Date.now(),
     },
+    imageUrl:{
+        type:String,
+    },
     updatedAt:{
         type:Date,
         required:true,

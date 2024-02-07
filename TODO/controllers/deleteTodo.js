@@ -4,7 +4,7 @@ exports.deleteTodo=async(req,res)=>{
 
     try{
         //fetch all todo items from database
-        const {id}=req.params;
+        const id=req.params.id;
 
         await Todo.findByIdAndDelete(id);
 

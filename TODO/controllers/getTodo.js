@@ -29,6 +29,7 @@ exports.getTodo=async(req,res)=>{
 exports.getTodoById=async(req,res)=>{
     try{
         const id=req.params.id;
+        const { page = 1, limit = 10 } = req.query;
         const todo=await Todo.findById({_id:id})
 
         //data forgiven id not found
