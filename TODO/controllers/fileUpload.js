@@ -26,7 +26,7 @@ exports.imageUpload = async (req, res) => {
   try {
 
     // Check if the file is present in the request
-    if (!req.files || !req.files.imageFile ) {
+    if (!req.files || !req.files.file ) {
         return res.status(400).json({
           success: false,
           message: "No file was uploaded",

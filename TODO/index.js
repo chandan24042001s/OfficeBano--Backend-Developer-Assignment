@@ -24,6 +24,10 @@ const todoRoutes=require("./routes/todos");
 //mount the todo API routes
 app.use("/api/v1",todoRoutes);
 
+//default route
+app.get("/",(req,res)=>{
+    res.send(`<h1> Office Banao with Chandan <h1>`);
+})
 
 // Error handling middleware
 app.use((err, res) => {
@@ -40,7 +44,4 @@ app.listen(PORT,()=>{
 const dbConnect=require("./config/database");
 dbConnect();
 
-//default route
-app.get("/",(req,res)=>{
-    res.send(`<h1> This is Home page bhaiye </h1>`);
-})
+
